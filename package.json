@@ -1,0 +1,20 @@
+{
+  "name": "testcafe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "testCafeTest": "testcafe chrome pageModel/tests/*.js --skip-j-errors",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "testcafe": "^3.6.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "testcafe-reporter-html": "^1.4.6"
+  }
+}
